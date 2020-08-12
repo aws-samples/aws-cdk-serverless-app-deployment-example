@@ -41,6 +41,9 @@ Luis's changes
 
 5. Populate db and table
 
+
+DATABASE NAME : main
+SECRETS MANAGER: find it in the lambda function environment variables
 .....
 
 6. Test
