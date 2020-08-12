@@ -12,7 +12,11 @@ Luis's changes
 
 ## deployment instructions
 
-1. Clone repo
+1. Clone repo and navigate to directory
+
+`git clone .....`
+
+`cd aws-cdk-serverless-app-deployment-example/RecordsApp`
 
 2. Configure cdk
 

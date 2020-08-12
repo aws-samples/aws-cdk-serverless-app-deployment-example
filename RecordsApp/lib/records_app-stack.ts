@@ -61,6 +61,7 @@ export class RecordsAppStack extends cdk.Stack {
     const lambdaRole = new iam.Role(this, 'AuroraServerlessBlogLambdaRole', {
       assumedBy: new iam.ServicePrincipal('lambda.amazonaws.com'),
       managedPolicies: [
+            iam.ManagedPolicy.fromAwsManagedPolicyName('SecretsManagerReadWrite'),
             iam.ManagedPolicy.fromAwsManagedPolicyName('AmazonRDSDataFullAccess'),
             iam.ManagedPolicy.fromAwsManagedPolicyName('service-role/AWSLambdaBasicExecutionRole')
         ]
