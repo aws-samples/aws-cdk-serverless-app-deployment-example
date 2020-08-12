@@ -15,11 +15,17 @@ Luis's changes
 1. Clone repo
 
 2. Configure cdk
+
 `sudo yum -y update `
+
 `nvm install v10.3.0; nvm alias default 10.3.0`
-`npm install -g typescript `
+
+`npm install -g typescript`
+
 `npm install -g aws-cdk`
+
 `cdk init app --language typescript`
+
 
 3. Install depedencies
 `npm install @aws-cdk/aws-apigateway @aws-cdk/aws-lambda @aws-cdk/aws-iam @aws-cdk/aws-rds @aws-cdk/aws-aws-secretsmanager`
