@@ -36,11 +36,28 @@ In this demo, you will learn how to deploy a serverless application made AWS lam
 
 DATABASE NAME : main
 SECRETS MANAGER: find it in the lambda function environment variables
-.....
+
+`INSERT INTO singers(id,name,nationality,recordid) VALUES(100,'Michael Jackson','American',001);`
 
 6. Test
 
-.....
+Once it’s done, you can test it using Postman:
+
+GET = ‘RecordName’ in the path
+
+    example:
+        API-GATEWAY ENDPOINT/RecordName
+
+POST = Payload in the body
+
+    example:
+
+  {
+     "recordTitle" : "BlogTest",
+     "recordReleaseDate" : "2020-01-01",
+     "singerName" : "BlogSinger",
+     "singerNationality" : "AWS"
+  }
 
 ## License
 
