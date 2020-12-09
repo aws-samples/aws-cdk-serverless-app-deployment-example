@@ -2,7 +2,13 @@
 
 In this demo, you will learn how to deploy a serverless application made AWS lambda, Amazon API Gateway, and Amazon Aurora Serverless using the AWS Cloud Development Kit, known as the CDK.
 
-## deployment instructions
+## Architecture 
+
+The architecture of this demo consists of AWS Cloud9 instance environment containing a CDK project which deploys an API Gateway and Lambda function. This Lambda function leverages a secret stored in your AWS Secrets Manager to read and write from your Aurora Serverless database through the data API, as shown in the following diagram.
+
+![alt text](img/cdk-serverless-app-deploy.png)
+
+## Deployment instructions
 
 1. Clone repo and navigate to directory using the following commands:
 
@@ -58,7 +64,7 @@ POST = Payload in the body
      "singerName" : "BlogSinger",
      "singerNationality" : "AWS"
   }
-
+```
 ## License
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
