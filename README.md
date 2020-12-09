@@ -51,7 +51,7 @@ GET = ‘RecordName’ in the path
 POST = Payload in the body
 
     example:
-
+```yaml
   {
      "recordTitle" : "BlogTest",
      "recordReleaseDate" : "2020-01-01",
