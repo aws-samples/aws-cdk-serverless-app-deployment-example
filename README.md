@@ -1,20 +1,12 @@
-## My Project
+## Serverless app deployment using AWS Cloud Development Kit (CDK)
 
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
-
-Luis's changes 
-
+In this demo, you will learn how to deploy a serverless application made AWS lambda, Amazon API Gateway, and Amazon Aurora Serverless using the AWS Cloud Development Kit, known as the CDK.
 
 ## deployment instructions
 
-1. Clone repo and navigate to directory
+1. Clone repo and navigate to directory using the following commands:
 
-`git clone .....`
+`git clone https://github.com/aws-samples/aws-cdk-serverless-app-deployment-example.git`
 
 `cd aws-cdk-serverless-app-deployment-example/RecordsApp`
 
@@ -44,11 +36,28 @@ Luis's changes
 
 DATABASE NAME : main
 SECRETS MANAGER: find it in the lambda function environment variables
-.....
+
+`INSERT INTO singers(id,name,nationality,recordid) VALUES(100,'Michael Jackson','American',001);`
 
 6. Test
 
-.....
+Once it’s done, you can test it using Postman:
+
+GET = ‘RecordName’ in the path
+
+    example:
+        API-GATEWAY ENDPOINT/RecordName
+
+POST = Payload in the body
+
+    example:
+```yaml
+  {
+     "recordTitle" : "BlogTest",
+     "recordReleaseDate" : "2020-01-01",
+     "singerName" : "BlogSinger",
+     "singerNationality" : "AWS"
+  }
 
 ## License
 
