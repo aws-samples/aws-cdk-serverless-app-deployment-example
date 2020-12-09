@@ -6,7 +6,9 @@ In this demo, you will learn how to deploy a serverless application made AWS lam
 
 The architecture of this demo consists of AWS Cloud9 instance environment containing a CDK project which deploys an API Gateway and Lambda function. This Lambda function leverages a secret stored in your AWS Secrets Manager to read and write from your Aurora Serverless database through the data API, as shown in the following diagram.
 
-![alt text](img/cdk-serverless-app-deploy.png)
+<p align="left">
+  <img width="600" height="300" src="https://github.com/aws-samples/aws-cdk-serverless-app-deployment-example/blob/master/img/cdk-serverless-app-deploy.png">
+</p>
 
 ## Deployment instructions
 
