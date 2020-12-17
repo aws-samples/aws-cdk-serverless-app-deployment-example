@@ -1,6 +1,6 @@
 ## Serverless app deployment using AWS Cloud Development Kit (CDK)
 
-In this demo, you will learn how to deploy a serverless application made AWS lambda, Amazon API Gateway, and Amazon Aurora Serverless using the AWS Cloud Development Kit, known as the CDK. For a more detailed step-by-step instructions you can follow this [blog](https://aws-preview.aka.amazon.com/blogs/devops/deploying-a-serverless-application-using-aws-cdk/).
+In this demo, you will learn how to deploy a serverless application made AWS lambda, Amazon API Gateway, and Amazon Aurora Serverless using the AWS Cloud Development Kit, known as the CDK. For a more detailed step-by-step instructions you can follow this [blog](https://aws.amazon.com/blogs/devops/deploying-a-serverless-application-using-aws-cdk/).
 
 ## Architecture 
 
